@@ -54,9 +54,9 @@ sql = "SELECT * FROM Users WHERE Name ='" + uName + "' AND Pass ='" + uPass + "'
 Web漏洞扫描在`【测试工具】`中有详细介绍，因此本章节测试方法重点介绍手工SQL注入和Web源码分析SQL注入。
 
 #### 源码：非预编译大致的SQL注入
-**PHP关键字：query 、mysql_query 、mysql_fetch_array ……**
+**`PHP关键字`：query 、mysql_query 、mysql_fetch_array ……**
 
-**Java关键字：Statement 、.execute 、.executeQuery、jdbcTemplate、queryForInt、queryForObject、queryForMap、getConnection**
+**`Java关键字`：Statement 、.execute 、.executeQuery、jdbcTemplate、queryForInt、queryForObject、queryForMap、getConnection**
 
 ***【技巧：SQL002】***
 
